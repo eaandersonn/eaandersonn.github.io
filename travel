@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+    </head>
+    
+    <style> 
+        
+        #travel-to {color: white; background-color: blue;}
+        
+        .titles {color: yellow; background-color: rgb(0, 137, 179);}
+        
+        #foods {color: rgb(201, 6, 201);}
+        
+        .places {color: white; background-color: rgb(63, 181, 0);}
+        
+        #santorini {background-color: pink;}
+        #santorini-movie {color: white; background-color: purple;}
+        
+        #athens {background-color: rgb(0, 163, 144); }
+        #athens-movie {color: white; background-color: rgb(0, 145, 109);}
+        
+        #mykonos {background-color: gold;}
+        #mykonos-movie {color: white; background-color: rgb(138, 131, 0);}
+        
+    </style>
+    <body>
+    
+        <h1 id="travel-to">Travel to ....</h1>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/SantoriniPartialPano.jpg/800px-SantoriniPartialPano.jpg" width="400">
+        
+        <h2 class="titles"><EM>Greece!</em></h2>
+        
+        <p>Greece is a beautiful country with plenty of history, exciting nightlife, and idyllic beaches. Be careful: The friendly atmosphere offered by the locals will make you never want to go home. </p>
+        
+        <h2 class="titles"><em>Good Eats</em></h2>
+        
+        <ul id="foods">
+            <li>Moussaka</li>
+            <li>Souvlaki</li>
+            <li>Tzatziki</li>
+        </ul>
+        
+        <h2 class="titles"><em>Sightseeing</em></h2>
+        
+        <h3 class="places">Santorini</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Oia%2C_Santorini_HDR_sunset.jpg" width="400">
+        
+        <p id="santorini">Known as one of the most beautiful cities in Greece, Santorini is nestled up against the Agean sea and offers the backdrop for the best pictures you'll ever take. </p>
+        
+        <p id="santorini-movie"><strong>As seen on:</strong> Sisterhood of the Travelling Pants</p>
+        
+        <h3 class="places">Athens</h3>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/da/The_Parthenon_in_Athens.jpg" width="400">
+        
+        <p id="athens">Athens is the capitol of Greece, full to the brim with the history you've alwayslearned about. Visit the Acropolis, the Parthenon, and many more historic sights.</p>
+        
+        <p id="athens-movie"><strong>As seen on:</strong> Any movie about Ancient Greece</p>
+        
+        <h3 class="places">Mykonos</h3>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Mykonos%2C_little_venice_02.JPG" width="400">
+        
+        <p id="mykonos">A popular vacation destination for hippies and celebrities in the 70's and 80's, Mykonos is still the chosen party location for anyone visiting Greece. </p>
+        <p id="mykonos-movie"><strong>As seen on:</strong> Tomb Raider</p>
+        
+    </body>
+</html>
